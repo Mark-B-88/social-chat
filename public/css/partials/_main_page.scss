@@ -1,0 +1,52 @@
+.join-container {
+	max-width: 720px;
+	width: auto;
+	height: auto;
+	margin: 14rem auto 0 auto;
+	color: var(--light);
+}
+
+.join-header {
+	text-align: center;
+	padding: 18px;
+	background: var(--primary-blue);
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+
+.join-main {
+	padding: 36px 45px;
+	background: var(--secondary-blue);
+
+	& p {
+		margin-bottom: 18px;
+	}
+
+	& .form-control {
+		margin-bottom: 18px;
+	}
+
+	& label {
+		display: block;
+		margin-bottom: 9px;
+	}
+
+	& input[type='text'] {
+		font-size: 18px;
+		padding: 9px;
+		height: 45px;
+		width: 100%;
+	}
+
+	& select {
+		font-size: 16px;
+		padding: 5px;
+		height: 40px;
+		width: 100%;
+	}
+
+	& .btn {
+		margin-top: 18px;
+		width: 100%;
+	}
+}
